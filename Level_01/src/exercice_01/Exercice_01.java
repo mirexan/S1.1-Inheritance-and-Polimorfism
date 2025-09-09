@@ -1,4 +1,8 @@
 package exercice_01;
+
+import java.net.StandardSocketOptions;
+
+//SUBJECT (català)
 /*En un grup de música hi ha diferents tipus d’instruments musicals.
 Hi ha instruments de vent, de corda i de percussió.
 
@@ -14,4 +18,14 @@ per la creació de la primera instància d'aquesta classe o per l'accés a un me
 
 Cerca informació sobre els blocs d'inicialització i blocs estàtics en Java.*/
 public class Exercice_01 {
+    public static void main(String[] args) {
+    System.out.println("Instancio objecte vent:");
+    Vent Flauta = new Vent("Flauta travessera", 550f);
+        System.out.println("Instancio objecte vent 2:");
+    Vent Oboe = new Vent("Oboe", 750f);
+    System.out.println("utilitzar metode:");
+    Flauta.tocar();
+    System.out.println("accedeixo a membre estàtic");
+    Oboe.static_member();
+    }
 }
