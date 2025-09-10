@@ -1,6 +1,6 @@
 package exercise_01;
 
-public class Exercice_01 {
+public class Exercise_01 {
     public static void main(String[] args) {
     System.out.println("Instancio objecte vent:");
     Vent flauta = new Vent("Flauta travessera", 550f);
