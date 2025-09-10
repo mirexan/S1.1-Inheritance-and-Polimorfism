@@ -1,16 +1,16 @@
-package exercice_01;
+package exercise_01;
 
-public class Corda extends Instrument{
+public class Percussio extends Instrument{
 
     //STATIC BLOCK
 
     static{
-        System.out.println("S'ha carregat l'instrument de corda");
+        System.out.println("S'ha carregat l'instrument de percussió");
     }
 
     //CONSTRUCTOR
 
-    public Corda(String name, float price)
+    public Percussio(String name, float price)
     {
         super(name, price);
     }
@@ -18,7 +18,7 @@ public class Corda extends Instrument{
 
     public void tocar()
     {
-        System.out.println("Està sonant un instrument de corda");
+        System.out.println("Està sonant un instrument de percussió");
     }
     // GENERAL METHOD
     public static void static_member()
@@ -26,3 +26,4 @@ public class Corda extends Instrument{
         System.out.println("Accès a membre estatic de instrument de vent");
     }
 }
+

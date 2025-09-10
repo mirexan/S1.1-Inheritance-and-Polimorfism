@@ -1,4 +1,4 @@
-package exercice_01;
+package exercise_01;
 
 public abstract class Instrument {
 
