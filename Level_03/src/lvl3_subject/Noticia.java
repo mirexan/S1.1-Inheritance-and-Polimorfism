@@ -19,21 +19,17 @@ public class Noticia {
 	}
 
 	//GETTER
-	public String getTitular()
-	{
-		return this.titular;
+	public String getTitular() {
+        return this.titular;
 	}
-	public String getText()
-	{
+	public String getText() {
 		return this.text;
 	}
-	public int getPuntuacio()
-	{
+	public int getPuntuacio() {
 		return this.puntuacio;
 	}
-	public int getPreu()
-	{
-		return this.preu;
+	public int getPreu() {
+        return this.preu;
 	}
 	//SETTER
 	public void setTitular(String titular)
