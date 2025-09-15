@@ -37,4 +37,11 @@ public class Redactor {
 	public void setNoticies(Noticia noticia){
 		this.noticies.add(noticia);
 	}
+
+	//OWN METHOD
+
+	public String toString()
+	{
+		return "Redactor/a " + this.nom + " amb DNI " + this.dni + " i sou " + this.getSou() + "€";
+	}
 }
