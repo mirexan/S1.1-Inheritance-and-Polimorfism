@@ -1,7 +1,7 @@
 
 ## **S1.1-Herencia i Polimorfisme**
 
-### 📄 **Descripció **
+### 📄 **Descripció**
 
 Aquest projecte consisteix en la realització d'exercercicis relacionats amb l'herència i el polimorfisme 
 en la Programació orientada a objectes.
