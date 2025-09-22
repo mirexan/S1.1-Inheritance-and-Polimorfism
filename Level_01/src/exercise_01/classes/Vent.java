@@ -1,29 +1,24 @@
-package exercise_01;
+package exercise_01.classes;
 
 public class Vent extends Instrument {
 
-    //STATIC BLOCK
-
     static{
-        System.out.println("S'ha carregat l'instrument de vent");
+        System.out.println("Vent instrument has been loaded");
     }
-
-    //CONSTRUCTOR
 
     public Vent(String name, float price)
     {
         super(name, price);
     }
-    // OWN METHODS
 
-    public void tocar()
+    @Override
+	public void tocar()
     {
         System.out.println("Està sonant un instrument de vent");
     }
 
-    //GENERAL METHOD
     public static void static_member()
     {
-        System.out.println("Accès a membre estatic de instrument de vent");
+        System.out.println("Access to vent a static member of instrument de vent");
     }
 }

@@ -1,6 +1,6 @@
-package lvl2_exercise_01;
+package lvl2_exercise_01.classes;
 
-public class Smartphone extends Telèfon implements Camera, Rellotge{
+public class Smartphone extends Telefon implements Camera, Rellotge{
 
 	//CONSTRUCTOR
 
@@ -8,17 +8,13 @@ public class Smartphone extends Telèfon implements Camera, Rellotge{
 	{
 		super(marca, model);
 	}
-	//OWN METHOD
 
-	public String toString()
-	{
-		return "Esto es un smartphone " + super.getMarca() + " model " + super.getModel();
-	}
-	// GENERAL METHODS
 
+	@Override
 	public void alarma() {
 		System.out.println("Està sonant l'alarma");
 	}
+	@Override
 	public void fotografiar() {
 		System.out.println("S'està fent una foto");
 	}

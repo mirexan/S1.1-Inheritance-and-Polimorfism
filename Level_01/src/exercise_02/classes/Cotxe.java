@@ -1,23 +1,31 @@
-package exercise_02;
+package exercise_02.classes;
 
 public class Cotxe {
 
-    //ATTRIBUTES
 
     private final static String marca = "Mitsubishi";
     private static String model;
     private final int potencia;
 
-    //CONSTRUCTOR
 
     public Cotxe(int potencia)
     {
-        this.model = "Colt";
+        Cotxe.model = "Colt";
         this.potencia = potencia;
     }
 
-    //METHODS
-
+    public static String getMarca(){
+        return Cotxe.marca;
+    }
+    public static String getModel(){
+        return Cotxe.model;
+    }
+    public int  getPotencia(){
+        return this.potencia;
+    }
+    public static void setModel(String model){
+        Cotxe.model = model;
+    }
     public static void frenar()
     {
         System.out.println("El vehicle està frenant");
